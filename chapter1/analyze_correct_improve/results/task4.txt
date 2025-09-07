@@ -1,0 +1,19 @@
+
+Status: PASSED!
+Check: 1
+Test: Correct the issues with the `title` and `meta` tags.
+Reason: None
+Timestamp: 2025-09-07 06:38:16.575575
+
+Status: FAILED!
+Check: 2
+Test: Add the `charset` attribute to the `meta` tag and specify the character set as 'utf-8' as follows: `<meta charset="utf-8">`
+Reason: KeyError occurred: 'charset'
+Error : KeyError - 'charset'
+Timestamp: 2025-09-07 06:38:16.576125
+
+Status: PASSED!
+Check: 3
+Test: Ensure there is only one `meta` tag in the `head` tag.
+Reason: None
+Timestamp: 2025-09-07 06:38:16.576723

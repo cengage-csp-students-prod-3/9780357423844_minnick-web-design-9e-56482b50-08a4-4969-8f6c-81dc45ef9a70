@@ -3,23 +3,22 @@ Status: PASSED!
 Check: 1
 Test: In the `main` element, nest all content within a `div` element that has an `id` attribute value of **resources**.
 Reason: None
-Timestamp: 2025-09-21 05:48:40.025029
+Timestamp: 2025-09-21 05:50:34.696352
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Wrap the content within the `div` element with an `id` attribute value of **resources** within a `div` element.
-Reason: Assertion failed: Expected only one child element within the main element but found 2 elements.
-Error : AssertionError - Expected only one child element within the main element but found 2 elements.
-Timestamp: 2025-09-21 05:48:40.026579
+Reason: None
+Timestamp: 2025-09-21 05:50:34.697283
 
 Status: PASSED!
 Check: 3
 Test: Insert a blank line after the starting `div` tag
 Reason: None
-Timestamp: 2025-09-21 05:48:40.026903
+Timestamp: 2025-09-21 05:50:34.697468
 
 Status: PASSED!
 Check: 4
 Test: Insert a blank line above the closing `div` tag.
 Reason: None
-Timestamp: 2025-09-21 05:48:40.027051
+Timestamp: 2025-09-21 05:50:34.697583

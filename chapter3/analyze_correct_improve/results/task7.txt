@@ -3,89 +3,89 @@ Status: PASSED!
 Check: 1
 Test: Link the text, W3C, to   https://www.w3.org/
 Reason: None
-Timestamp: 2025-09-21 06:40:38.737828
+Timestamp: 2025-09-21 06:44:57.543392
 
 Status: FAILED!
 Check: 10
 Test: Link the text, Image Compressor, to an online image compressor of your choice opens up in a new tab.
 Reason: Assertion failed: No target attribute found for the link text, Image Compressor.
 Error : AssertionError - No target attribute found for the link text, Image Compressor.
-Timestamp: 2025-09-21 06:40:38.738888
+Timestamp: 2025-09-21 06:44:57.544486
 
 Status: PASSED!
 Check: 11
 Test: Link the text, HTML Validator, to W3C’s HTML validator
 Reason: None
-Timestamp: 2025-09-21 06:40:38.740121
+Timestamp: 2025-09-21 06:44:57.545744
 
 Status: FAILED!
 Check: 12
 Test: Link the text, HTML Validator, to W3C’s HTML validator opens up in a new tab.
 Reason: Assertion failed: No target attribute found for the link text, HTML Validator.
 Error : AssertionError - No target attribute found for the link text, HTML Validator.
-Timestamp: 2025-09-21 06:40:38.741108
+Timestamp: 2025-09-21 06:44:57.546751
 
 Status: PASSED!
 Check: 13
 Test: Link the text, Emmet, to   https://emmet.io/
 Reason: None
-Timestamp: 2025-09-21 06:40:38.742150
+Timestamp: 2025-09-21 06:44:57.547794
 
 Status: FAILED!
 Check: 14
 Test: Link the text, Emmet, to   https://emmet.io/ opens up in a new tab.
 Reason: Assertion failed: No target attribute found for the link text, Emmet.
 Error : AssertionError - No target attribute found for the link text, Emmet.
-Timestamp: 2025-09-21 06:40:38.743117
+Timestamp: 2025-09-21 06:44:57.548770
 
 Status: FAILED!
 Check: 2
 Test: Link the text, W3C, to   https://www.w3.org/ opens up in a new tab.
 Reason: Assertion failed: No target attribute found for the link text, W3C.
 Error : AssertionError - No target attribute found for the link text, W3C.
-Timestamp: 2025-09-21 06:40:38.744254
+Timestamp: 2025-09-21 06:44:57.549901
 
 Status: PASSED!
 Check: 3
 Test: Link the text, W3 Schools, to   https://www.w3schools.com/
 Reason: None
-Timestamp: 2025-09-21 06:40:38.745252
+Timestamp: 2025-09-21 06:44:57.551206
 
 Status: FAILED!
 Check: 4
 Test: Link the text, W3 Schools, to   https://www.w3schools.com/ opens up in a new tab.
 Reason: Assertion failed: No target attribute found for the link text, W3 Schools.
 Error : AssertionError - No target attribute found for the link text, W3 Schools.
-Timestamp: 2025-09-21 06:40:38.746192
+Timestamp: 2025-09-21 06:44:57.552164
 
 Status: PASSED!
 Check: 5
 Test: Link the text, HTML, to   https://www.html.com/
 Reason: None
-Timestamp: 2025-09-21 06:40:38.747289
+Timestamp: 2025-09-21 06:44:57.553309
 
 Status: FAILED!
 Check: 6
 Test: Link the text, HTML, to   https://www.html.com/ opens up in a new tab.
 Reason: Assertion failed: No target attribute found for the link text, HTML.
 Error : AssertionError - No target attribute found for the link text, HTML.
-Timestamp: 2025-09-21 06:40:38.748228
+Timestamp: 2025-09-21 06:44:57.554270
 
 Status: PASSED!
 Check: 7
 Test: Link the text, Smashing Magazine, to   https://www.smashingmagazine.com/
 Reason: None
-Timestamp: 2025-09-21 06:40:38.749215
+Timestamp: 2025-09-21 06:44:57.555271
 
 Status: FAILED!
 Check: 8
 Test: Link the text, Smashing Magazine, to   https://www.smashingmagazine.com/ opens up in a new tab.
 Reason: Assertion failed: No target attribute found for the link text, Smashing Magazine.
 Error : AssertionError - No target attribute found for the link text, Smashing Magazine.
-Timestamp: 2025-09-21 06:40:38.750212
+Timestamp: 2025-09-21 06:44:57.556226
 
 Status: PASSED!
 Check: 9
 Test: Link the text, Image Compressor, to an online image compressor of your choice.
 Reason: None
-Timestamp: 2025-09-21 06:40:38.751333
+Timestamp: 2025-09-21 06:44:57.557343

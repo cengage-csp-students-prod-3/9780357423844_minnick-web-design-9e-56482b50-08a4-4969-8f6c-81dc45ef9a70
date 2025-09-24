@@ -31,9 +31,11 @@ File Name: styles.css
 } 
 nav {
     background-color: #47476b;
+    text-decoration: none;
 } 
 nav ul { 
     margin: 0;
+    text-decoration: none;
 } 
 nav li {
     display: inline-block;
@@ -45,7 +47,8 @@ nav li {
 nav li a { 
     display: block; 
     color: #e3eaf8; 
-    padding: 0.5em 2em; 
+    padding: 0.5em 2em;
+    text-decoration: none; 
 }
 
 main p {

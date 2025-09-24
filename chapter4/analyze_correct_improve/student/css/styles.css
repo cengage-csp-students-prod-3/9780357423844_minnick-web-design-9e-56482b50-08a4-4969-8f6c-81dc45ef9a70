@@ -54,3 +54,6 @@ main h3 {
     padding-top: 2%;
     font-size: 2em;
 }
+.external-link {
+    text-decoration: none;
+}

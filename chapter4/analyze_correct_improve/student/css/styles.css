@@ -26,12 +26,24 @@ File Name: styles.css
     padding: 3%;
     color: #47476b;
     text-align: center;
-} nav {
+} 
+nav {
     background-color: #47476b;
-} nav ul { margin: 0;} nav li {
+} 
+nav ul { 
+    margin: 0;
+} 
+nav li {
     display: block;
-    font-size: 1.5em; font-family: Verdana, Arial, sans-serif; font-weight: bold;
-} nav li a { display: block; color: #e3eaf8; padding: 0.5em 2em; }
+    font-size: 1.5em; 
+    font-family: Verdana, Arial, sans-serif; 
+    font-weight: bold;
+} 
+nav li a { 
+    display: block; 
+    color: #e3eaf8; 
+    padding: 0.5em 2em; 
+}
 
 main p {
     font-size: 1.25em;

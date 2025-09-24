@@ -14,7 +14,7 @@ File Name: styles.css
     color: #47476b;
     padding: 1% 0;
     border-top: 3px solid #47476b;
-    float: left;
+    clear: left;
 }body {
     padding: 2%;
     background-color: #d1d1e0;

@@ -1,7 +1,7 @@
 /*
-Author:
-File Name: 
-Date: 
+Author: Hannah Whisenant
+File Name: styles.css
+Date: 10/02/2025
 */
 
 /* CSS reset */
@@ -19,6 +19,15 @@ body {
 img {
     max-width: 100%;
     display: block;
+}
+
+/* Style rules for navigation area */
+nav ul {
+        list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
 }
 
 /* Style rules for header content */

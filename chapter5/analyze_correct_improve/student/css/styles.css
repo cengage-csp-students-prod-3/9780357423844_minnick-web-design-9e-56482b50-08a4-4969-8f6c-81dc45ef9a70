@@ -79,7 +79,7 @@ main p {
     font-size: 1.25em;
 }
 
-btn {
+.btn {
     background-color: #375f1b;
     padding: 2%;
     margin-top: 2%;
@@ -91,7 +91,7 @@ btn {
     border-radius: 5px;
 }
 
-btn a {
+.btn a {
     color: #ebf7e3;
     text-decoration: none;
     font-size: 1.25;

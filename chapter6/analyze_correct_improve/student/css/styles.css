@@ -24,16 +24,16 @@ img {
 /* Styles for Mobile Layout */
 
 /* Hide tablet-desktop content */
-    .tablet-desktop {
-        display: none;
-    }
+ .tablet-desktop {
+     display: none;
+}
 
 /* Style rule for the header */
-    header {
-	    padding: 2%;
-	    color: #110934;
-	    text-align: center;
-    }
+header {
+    padding: 2%;
+    color: #110934;
+    text-align: center;
+}
 
 /* Style rules for navigation area */
 nav ul {
@@ -100,7 +100,7 @@ footer {
 @media screen and (min-width: 769px), print {
 
     /* Desktop viewport: style rules for header */
-    header {
+    header a {
         width: 25%;
         float: left;
     }

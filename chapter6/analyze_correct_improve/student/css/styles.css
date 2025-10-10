@@ -77,7 +77,8 @@ footer {
 }
 
 /* Media Query for Tablet Viewport */
-@media screen and (min-width: 396px), print {
+@media screen and (min-width: 600px), print {
+    
     
     /* Tablet Viewport: Style rules for nav area */
     nav li {

@@ -128,7 +128,7 @@ footer {
         overflow: auto;
     }
 
-    #col-content {
+    .col-content {
         width: 30%;
         float: left;
         padding: 1.5%;
@@ -139,5 +139,7 @@ footer {
         clear: left;
     }
 
-    /*Media Query for Large Desktop Viewport*/
 }
+
+ /*Media Query for Large Desktop Viewport*/
+ @media screen and (min-width: 1921px) {

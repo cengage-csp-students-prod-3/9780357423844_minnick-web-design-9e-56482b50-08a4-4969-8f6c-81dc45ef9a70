@@ -4,10 +4,10 @@ Check: 1
 Test: add a style rule for the `header` selector that sets the `width` to   **25%** and floats it to the **left**
 Reason: Assertion failed: The header style rule does not set the width to 25%. within the desktop media query.
 Error : AssertionError - The header style rule does not set the width to 25%. within the desktop media query.
-Timestamp: 2025-10-10 22:59:02.881705
+Timestamp: 2025-10-10 23:01:14.859441
 
 Status: PASSED!
 Check: 2
 Test: align text to the **right** for unordered list elements within the `nav` element within the desktop media query.
 Reason: None
-Timestamp: 2025-10-10 22:59:02.911817
+Timestamp: 2025-10-10 23:01:14.911909

@@ -142,4 +142,13 @@ footer {
 }
 
  /*Media Query for Large Desktop Viewport*/
- @media screen and (min-width: 1921px) {
+ @media screen and (min-width: 1441px) {
+
+    #container {
+        width: 1440px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }

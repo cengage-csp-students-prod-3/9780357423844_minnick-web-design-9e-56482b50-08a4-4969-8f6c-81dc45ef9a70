@@ -128,6 +128,12 @@ footer {
         overflow: auto;
     }
 
+    .col-content {
+        width: 30%;
+        float: left;
+        padding: 1.5% 1.5% 1.5% 1.5%;
+    }
+
     /* Desktop Viewport: Style rule for footer */
     footer {
         clear: left;

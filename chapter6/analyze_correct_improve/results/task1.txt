@@ -3,37 +3,34 @@ Status: PASSED!
 Check: 1
 Test: Update the comment with your name, file name, and today's date
 Reason: None
-Timestamp: 2025-10-10 22:32:52.533632
+Timestamp: 2025-10-10 22:34:23.097054
 
 Status: PASSED!
 Check: 2
 Test: File name added into the comment
 Reason: None
-Timestamp: 2025-10-10 22:32:52.534931
+Timestamp: 2025-10-10 22:34:23.098423
 
 Status: PASSED!
 Check: 3
 Test: Update the comment with today's date
 Reason: None
-Timestamp: 2025-10-10 22:32:52.536346
+Timestamp: 2025-10-10 22:34:23.099811
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Update the comment with your name in styles.css
-Reason: Assertion failed: Name not found in comment in styles.css (Student Name: Firstname Lastname)
-Error : AssertionError - Name not found in comment in styles.css (Student Name: Firstname Lastname)
-Timestamp: 2025-10-10 22:32:52.536468
+Reason: None
+Timestamp: 2025-10-10 22:34:23.099928
 
-Status: FAILED!
+Status: PASSED!
 Check: 5
 Test: File name added into the comment
-Reason: Assertion failed: File name not found in comment in styles.css, (File Name: styles.css)
-Error : AssertionError - File name not found in comment in styles.css, (File Name: styles.css)
-Timestamp: 2025-10-10 22:32:52.536723
+Reason: None
+Timestamp: 2025-10-10 22:34:23.100065
 
-Status: FAILED!
+Status: PASSED!
 Check: 6
 Test: Update the comment with today's date
-Reason: Assertion failed: Date not found in comment in styles.css, (Date: MM/DD/YYYY)
-Error : AssertionError - Date not found in comment in styles.css, (Date: MM/DD/YYYY)
-Timestamp: 2025-10-10 22:32:52.536871
+Reason: None
+Timestamp: 2025-10-10 22:34:23.100161

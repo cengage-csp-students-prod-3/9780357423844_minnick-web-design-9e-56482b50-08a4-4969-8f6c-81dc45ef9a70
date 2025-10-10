@@ -79,6 +79,10 @@ footer {
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 600px), print {
     
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
     
     /* Tablet Viewport: Style rules for nav area */
     nav li {

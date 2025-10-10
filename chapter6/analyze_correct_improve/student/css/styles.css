@@ -29,11 +29,11 @@ img {
     }
 
 /* Style rule for the header */
-header {
-	padding: 2%;
-	color: #110934;
-	text-align: center;
-}
+    header {
+	    padding: 2%;
+	    color: #110934;
+	    text-align: center;
+    }
 
 /* Style rules for navigation area */
 nav ul {

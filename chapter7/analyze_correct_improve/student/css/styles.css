@@ -90,6 +90,7 @@ footer {
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 700px), print {
     
+    /*Tablet Viewport: Style rules for main content area */
     .grid {
         display: grid;
         grid-template-columns: auto auto auto;

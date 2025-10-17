@@ -96,5 +96,9 @@ footer {
         grid-template-columns: auto auto auto;
         grid-gap: 20px;
     }
+
+    .aside {
+        grid-column: 1 / span 3;
+    }
     
 }

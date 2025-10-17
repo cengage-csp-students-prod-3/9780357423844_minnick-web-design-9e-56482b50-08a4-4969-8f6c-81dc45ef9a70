@@ -78,6 +78,8 @@ aside {
     font-style: italic;
     text-align: center;
     border-radius: 15px;
+    text-shadow: 4px 4px 8px #fc7307;
+    box-shadow: 4px 4px 10px #183440;
 }
 
 footer {

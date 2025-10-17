@@ -3,23 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Add a favicon to the head
 Reason: None
-Timestamp: 2025-10-17 17:15:27.882713
+Timestamp: 2025-10-17 17:17:36.156979
 
 Status: PASSED!
 Check: 2
 Test: Add a favicon shortcut to the head
 Reason: None
-Timestamp: 2025-10-17 17:15:27.885765
+Timestamp: 2025-10-17 17:17:36.160596
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Add an iOS favicon to the head
-Reason: Assertion failed: Missing link with href to apple-touch-icon.png in head
-Error : AssertionError - Missing link with href to apple-touch-icon.png in head
-Timestamp: 2025-10-17 17:15:27.888876
+Reason: None
+Timestamp: 2025-10-17 17:17:36.164124
 
 Status: PASSED!
 Check: 4
 Test: Add an Android favicon to the head
 Reason: None
-Timestamp: 2025-10-17 17:15:27.893086
+Timestamp: 2025-10-17 17:17:36.167652

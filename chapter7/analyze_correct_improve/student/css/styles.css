@@ -57,6 +57,11 @@ main h1 {
 section {
     color: #fff;
     padding: 3%;
+    background-color: #9d4502;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 article {

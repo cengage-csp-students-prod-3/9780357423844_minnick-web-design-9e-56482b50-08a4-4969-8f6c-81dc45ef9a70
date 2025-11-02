@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: The first fieldset element has a legend element with the text 'Customer Information'
+Reason: None
+Timestamp: 2025-11-02 17:10:25.929009
+
+Status: PASSED!
+Check: 2
+Test: The second fieldset element has a legend element with the text 'Payment Information'
+Reason: None
+Timestamp: 2025-11-02 17:10:25.930319

@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: The form contains a submit button with a class attribute value of 'btn'
+Reason: None
+Timestamp: 2025-11-02 17:11:13.326350

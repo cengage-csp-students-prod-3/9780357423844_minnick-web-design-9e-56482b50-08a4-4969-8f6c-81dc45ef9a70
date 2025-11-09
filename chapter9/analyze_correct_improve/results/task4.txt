@@ -1,13 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Track element added to the video element
-Reason: Assertion failed: Could not find the track element within the video element
-Error : AssertionError - Could not find the track element within the video element
-Timestamp: 2025-11-09 02:51:05.915586
+Reason: None
+Timestamp: 2025-11-09 02:52:18.955447
 
 Status: PASSED!
 Check: 2
 Test: Descriptive text added to the descriptions file
 Reason: None
-Timestamp: 2025-11-09 02:51:05.915833
+Timestamp: 2025-11-09 02:52:18.955608

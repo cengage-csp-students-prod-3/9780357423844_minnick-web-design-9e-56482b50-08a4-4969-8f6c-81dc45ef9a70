@@ -1,0 +1,13 @@
+
+Status: FAILED!
+Check: 1
+Test: Poster attribute added to the video element
+Reason: Assertion failed: Poster attribute does not point to the correct image
+Error : AssertionError - Poster attribute does not point to the correct image
+Timestamp: 2025-11-09 02:21:27.528467
+
+Status: PASSED!
+Check: 2
+Test: Controls attribute added to the video element
+Reason: None
+Timestamp: 2025-11-09 02:21:27.529741

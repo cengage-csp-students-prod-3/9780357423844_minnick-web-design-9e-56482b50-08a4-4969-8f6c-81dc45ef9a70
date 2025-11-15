@@ -24,3 +24,11 @@ function pic2() {
     figElement.style.display = "block";
     figCap.textContent = "Coast of San Juan";
 }
+
+//Function to display the third picture
+function pic3() {
+    imgSource.src = "images/curacao.jpg";
+    imgSource.alt = "The blue waters of Curacao";
+    figElement.style.display = "block";
+    figCap.textContent = "Curacao";
+}

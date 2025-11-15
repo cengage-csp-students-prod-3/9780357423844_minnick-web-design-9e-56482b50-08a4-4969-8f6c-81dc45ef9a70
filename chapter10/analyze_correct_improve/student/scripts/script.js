@@ -1,7 +1,7 @@
 /*
-    Student Name:
+    Student Name: Hannah Whisenant
     File Name: script.js
-    Date: 
+    Date: 11/14/2025
 */
 
 //Function to display the first picture

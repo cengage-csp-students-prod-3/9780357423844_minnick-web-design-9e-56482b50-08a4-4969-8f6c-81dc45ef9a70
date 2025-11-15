@@ -16,3 +16,11 @@ function pic1() {
     figElement.style.display = "block";
     figCap.textContent = "Trunk Bay in St. John";
 }
+
+//Function to display the second picture
+function pic2() {
+    imgSource.src = "images/sanjuan.jpg";
+    imgSource.alt = "Elevated view of San Juan coast";
+    figElement.style.display = "block";
+    figCap.textContent = "Coast of San Juan";
+}

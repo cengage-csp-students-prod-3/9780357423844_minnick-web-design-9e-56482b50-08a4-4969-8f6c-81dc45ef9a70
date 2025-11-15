@@ -1,6 +1,6 @@
 /*
-    Author:
-    Date:
+    Author: Hannah Whisenant
+    Date: 11/14/2025
     File Name: styles.css
 */
 
@@ -54,6 +54,10 @@ main {
 	border-radius: 6px;
 	background-color: #fff;
 	border: inset 0.2em #7a6d68; 
+}
+
+#placeholder {
+	display: none;
 }
 
 footer {

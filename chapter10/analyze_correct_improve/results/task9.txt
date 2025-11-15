@@ -1,0 +1,13 @@
+
+Status: FAILED!
+Check: 1
+Test: create a style rule for the `figure` element to align it center.
+Reason: Assertion failed: The figure element is not set text-align center
+Error : AssertionError - The figure element is not set text-align center
+Timestamp: 2025-11-15 04:11:07.324049
+
+Status: PASSED!
+Check: 2
+Test: create a style rule for the `img` element and specify 1em of padding.
+Reason: None
+Timestamp: 2025-11-15 04:11:07.340390

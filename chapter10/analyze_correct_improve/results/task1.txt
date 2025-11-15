@@ -3,29 +3,28 @@ Status: PASSED!
 Check: 1
 Test: "Name" added to comment section of the file index.html
 Reason: 'Student Name: firstname lastname' was found in the program output.None
-Timestamp: 2025-11-15 03:25:35.871592
+Timestamp: 2025-11-15 03:25:56.559873
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: "Date" added to comment section of the file index.html
-Reason: Unable to find 'Date: MM/DD/YYYY' in the program.
-Error : str - AssertionError
-Timestamp: 2025-11-15 03:25:35.871876
+Reason: 'Date: MM/DD/YYYY' was found in the program output.None
+Timestamp: 2025-11-15 03:25:56.560149
 
 Status: PASSED!
 Check: 3
 Test: Title added to the page
 Reason: None
-Timestamp: 2025-11-15 03:25:35.873238
+Timestamp: 2025-11-15 03:25:56.562161
 
 Status: PASSED!
 Check: 4
 Test: Student name added to the paragraph element within the footer element
 Reason: None
-Timestamp: 2025-11-15 03:25:35.874416
+Timestamp: 2025-11-15 03:25:56.564180
 
 Status: PASSED!
 Check: 5
 Test: File linked to styles.css
 Reason: None
-Timestamp: 2025-11-15 03:25:35.875595
+Timestamp: 2025-11-15 03:25:56.566102

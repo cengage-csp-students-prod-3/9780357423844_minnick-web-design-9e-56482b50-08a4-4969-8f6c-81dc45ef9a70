@@ -4,6 +4,11 @@
     Date: 11/14/2025
 */
 
+//Global variables
+var figElement = document.getElementById("placeholder");
+var imgSource = document.getElementById("image");
+var figCap = document.querySelector("figcaption");
+
 //Function to display the first picture
 function pic1() {
     imgSource.src = "images/trunk-bay.jpg";

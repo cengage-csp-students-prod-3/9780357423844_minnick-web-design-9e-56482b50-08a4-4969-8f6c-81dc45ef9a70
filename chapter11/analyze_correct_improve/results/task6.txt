@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: First link updated to link to Facebook in a new tab
+Reason: Assertion failed: Facebook link not updated found https://www.facebook.com/ expected https://www.facebook.com
+Error : AssertionError - Facebook link not updated found https://www.facebook.com/ expected https://www.facebook.com
+Timestamp: 2025-11-22 02:59:25.904614
+
+Status: FAILED!
+Check: 2
+Test: Second link updated to link to Twitter in a new tab
+Reason: Assertion failed: Twitter link not updated found https://www.facebook.com/ expected https://www.twitter.com
+Error : AssertionError - Twitter link not updated found https://www.facebook.com/ expected https://www.twitter.com
+Timestamp: 2025-11-22 02:59:25.906335

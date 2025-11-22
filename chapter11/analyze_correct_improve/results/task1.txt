@@ -3,24 +3,22 @@ Status: PASSED!
 Check: 1
 Test: "Name" added to comment section of the file index.html
 Reason: 'Student Name: firstname lastname' was found in the program output.None
-Timestamp: 2025-11-22 02:38:35.966874
+Timestamp: 2025-11-22 02:39:46.488665
 
 Status: PASSED!
 Check: 2
 Test: "Date" added to comment section of the file index.html
 Reason: 'Date: MM/DD/YYYY' was found in the program output.None
-Timestamp: 2025-11-22 02:38:35.967299
+Timestamp: 2025-11-22 02:39:46.488857
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: "Name" added to comment section of the file styles.css
-Reason: Unable to find 'Student Name: firstname lastname' in the program.
-Error : str - AssertionError
-Timestamp: 2025-11-22 02:38:35.967557
+Reason: 'Student Name: firstname lastname' was found in the program output.None
+Timestamp: 2025-11-22 02:39:46.488963
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: "Date" added to comment section of the file styles.css
-Reason: Unable to find 'Date: MM/DD/YYYY' in the program.
-Error : str - AssertionError
-Timestamp: 2025-11-22 02:38:35.967949
+Reason: 'Date: MM/DD/YYYY' was found in the program output.None
+Timestamp: 2025-11-22 02:39:46.489036

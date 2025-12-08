@@ -1,130 +1,126 @@
-<!DOCTYPE html>
-<!-- This website template was created by: Hannah Whisenant 11/20/2025 -->
-<html lang="en">
-<head>
-	<title>Complete Fitness - Free Trial | Forward Fitness Club</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/styles.min.css">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-	<meta name="description" content="The Forward Fitness Club is an elite fitness center dedicated to helping clients achieve their fitness and nutrition goals.">
+<!doctype html>
+<!-- Hannah Whisenant, 12/06/2025 -->
+<html lang="en" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name ="description" content="The Forward Fitness Club is an elite fitness center dedicated to helping clients achieve their fitness and nutrition goals.">
+	
+	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
-</head>
-<body>
 
-	<!-- Skip to Content Link -->
-	<a class="skip" href="#content">Skip to Content</a>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css" integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+	
+	<!-- My Style Sheet -->
+	<link rel="stylesheet" href="css/styles.css">
 
-	<div id="container">
-	
-		<!-- Mobile Nav -->
-		<nav class="mobile-nav">
-			<div id="menu-links">
-				<a href="index.html">Home</a>
-				<a href="about.html">About Us</a>
-				<a href="classes.html">Classes</a>
-				<a href="nutrition.html">Nutrition</a>
-				<a href="contact.html">Contact Us</a>
-			</div>
-			<a class="menu-icon" onclick="hamburger()">
-				<div>&#9776;</div>
-			</a>
-		</nav>
+    <title>Complete Fitness - Free Trial | Forward Fitness Club</title>
+  </head>
+  <body>
+	  
+	  <!--Bootstrap Navigation bar -->
+	  <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+		  
+		  <a class="navbar-brand" href="index.html">Forward Fitness Club</a>
+		  
+		  <!-- Hamburger menu icon -->
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+		  </button>
+		  
+		  <!-- Navbar links -->
+		  <div class="collapse navbar-collapse" id="navbarResponsive">
+			  <ul class="navbar-nav ml-auto">
+				  <li class="nav-item">
+					  <a class="nav-link" href="index.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					  <a class="nav-link" href="about.html">About Us</a>
+				  </li>
+				  <li class="nav-item"> 
+					  <a class="nav-link" href="classes.html">Classes</a>
+				  </li>
+				  <li class="nav-item">
+					  <a class="nav-link" href="nutrition.html">Nutrition</a>
+				  </li>
+				  <li class="nav-item">
+					  <a class="nav-link" href="contact.html">Contact Us</a>
+				  </li>
+			  </ul>
+		  </div>
+		  
+	  </nav>
+	  
+	  <!-- Header and Hero Image -->
+	  <header class="jumbotron-fluid hero">
+		  <div class="container welcome text-white">
+			  <img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo" class="float-left mr-3 img-fluid">
+			  <h1>Welcome to the Forward Fitness Club</h1>
+			  <p>Train with us. Gain with us.</p>
+			  <a href="contact.html" role="button" class="btn btn-outline-secondary btn-lg bg-dark text-white">Start Your Free Trial</a>
+		  </div>
+	  </header>
+	  
+	  <!-- Main Content Area -->
+	  <main class="container-fluid mt-5">
+		  
+		  <div class="row">
+			  
+			  <div class="col-sm-4">
+				  <figure>
+					  <a href="classes.html"><img src="images/fitness-group.jpg" alt="group of fitness people" class="img-fluid"></a>
+				  </figure>
+				  <h1>Group Fitness</h1>
+				  <p class="lead">We offer a variety of fitness classes to meet your busy schedule.</p>
+			  </div>
+			  
+			  <div class="col-sm-4">
+				  <figure>
+					  <a href="nutrition.html"><img src="images/food-heart.jpg" alt="group of fitness people" class="img-fluid"></a>
+				  </figure>
+				  <h1>Nutrition Planning</h1>
+				  <p class="lead">We work with you to provide custom nutrition plans to help you reach your goals.</p>
+			  </div>
+			  
+			  <div class="col-sm-4">
+				  <figure>
+					  <a href="about.html"><img src="images/personal-trainer.jpg" alt="group of fitness people" class="img-fluid"></a>
+				  </figure>
+				  <h1>Personal Training</h1>
+				  <p class="lead">Learn more about oersonal training and our state-of-the-art equipment.</p>
+			  </div>
+			  
+		  </div>
+		  
+	  </main>
+	  
+	  <!-- Footer -->
+	  <footer class="jumbotron-fluid text-center bg-dark p-5">
+		  
+		  <div class="container text-white">
+			  <p>&copy; Copyright 2021. All Rights Reserved.</p>
+			  <p><a href="mailto:forwardfitness@club.net" class="text-white">forwardfitness@club.net</a></p>
+			  <a href="https://www.facebook.com/fwdfitclub" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo" class="pr-4"></a>
+			  <a href="https://twitter.com/fwdfitclub" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
+		  </div>
+		  
+	  </footer>	
 
-		<!-- Use the header area for the website name or logo -->
-		<header id="fcc-logo">
-			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo"></a>
-		</header>
-		
-		<!-- Tablet, Desktop Nav -->
-		<nav class="tablet-desktop">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="classes.html">Classes</a></li>
-				<li><a href="nutrition.html">Nutrition</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
-		
-		<!-- Hero Image -->
-		<div id="hero" class="tablet-desktop">
-			<img src="images/hero-image.jpg" alt="left arm extended holding a weight">
-		</div>
-		
-		<!-- Use the main area to add the main content of the webpage -->
-		<main id="content">
-		
-			<div class="mobile">
-		
-				<p>Welcome to Forward Fitness Club. Our mission is to help our clients meet their fitness and nutrition goals.</p>
-			
-				<h3>FREE One-Week Trial Membership!</h3>
-				<p>Call Us Today to Get Started</p>
-				<p class="tel-link"><a href="tel:8145559608">(814) 555-9608</a></p>
-			
-				<h4>Fitness Club Hours:</h4>
-				<ul class="hours">
-					<li>Mon-Thu: 6:00am-6:00pm</li>
-					<li>Friday: 6:00am-4:00pm</li>
-					<li>Saturday: 8:00am-6:00pm</li>
-					<li>Sunday: Closed</li>
-				</ul>
-				
-			</div>
-		
-			<div class="tablet-desktop">
-		
-				<p>Welcome to Forward Fitness Club. Our mission is to help our clients meet their fitness and nutrition goals. </p>
-				
-				<p>If you have struggled with getting healthy and need the motivation and resources to make a healthy lifestyle change, contact us today. Out facility includes state-of-the-art equipment, convenient group training classes, and nutritional tips and information to keep you healthy.</p>
-				
-				<p>We provide a FREE one-week membership so you can experience the benefits of our equipment and facility. This one-week trial gives you complete access to our equipment, training classes, and nutrition planning. Contact us today to <span class= "action"> start your free trial!</span></p>
-			
-			</div>
-			
-			<div class="grid">
-			
-				<figure class="frame">
-					<a href="classes.html"><img src="images/fitness-group.jpg" alt="group of fitness people"></a>
-					<figcaption class="pic-text">Group Fitness</figcaption>
-				</figure>
-			
-				<figure class="frame">
-					<a href="nutrition.html"><img src="images/food-heart.jpg" alt="healthy food in the shape of a heart"></a>
-					<figcaption class="pic-text">Meal Plans</figcaption>
-				</figure>
-			
-				<figure class="frame">
-					<a href= "contact.html"><img src="images/personal-trainer.jpg" alt="personal trainer with a clipboard"></a>
-					<figcaption class= "pic-text">Start Today</figcaption>
-				</figure>
-			
-			</div>
-			
-		</main>
-		
-		<!-- Use the footer area to add webpage footer content -->
-		<footer>
-		
-			<div class="copyright">
-				<p>&copy; Copyright 2021. All Rights Reserved.</p>
-				<a href="mailto:forwardfitness@club.net"><p>forwardfitness@club.net</p></a>
-			</div>
-			
-			<div class="social">
-				<a href="https://www.facebook.com/fwdfitclub" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
-				<a href="https://twitter.com/fwdfitclub" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
-			</div>
-			
-		</footer>
-	
-	</div>
-	
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 	<script src="scripts/script.js"></script>
-	
-</body>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
